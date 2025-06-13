@@ -1,0 +1,81 @@
+
+# this is the help file for the mastermind game
+
+
+WELCOME TO MASTERMIND
+
+────────────────────────────────────────────
+GENERAL HOW-TO
+
+The general aim of Mastermind is to guess the correct colour code (both colour and position) that is secretly chosen by the opponent. You have a maximum of 10 attempts to guess the secret code.
+
+Each code is made up of 4 colours. The possible colours used are:
+[R] = Red
+[O] = Orange
+[Y] = Yellow
+[G] = Green
+[B] = Blue
+
+Colours can repeat in the code, and the order is important.
+
+After each guess, you'll receive feedback:
+✓ (Check mark) → Correct colour in the correct position (Black peg)
+○ (Circle)     → Correct colour in the wrong position (White peg)
+
+Example:
+Secret Code: R O G B  
+Your Guess:  R G B P  
+Feedback: ✓ Black peg(s): 1, ○ White peg(s): 2
+Explanation: R, G and B are secret code but only R is in the right place, that's why you got one tick and two circles. 
+
+────────────────────────────────────────────
+SINGLE-PLAYER MODE
+
+In this mode, you will play against the computer.
+
+- The computer randomly generates a secret code.
+- Your task is to guess the 4-colour code within 10 tries.
+- After each guess, the computer gives you feedback using the ✓ and ○.
+- Guess correctly within 10 attempts to win!
+- If you fail, the computer reveals the secret code.
+
+How to start:
+Select “Single-Player” from the menu.
+
+────────────────────────────────────────────
+TWO-PLAYER MODE
+
+In this mode, two human players play against each other.
+
+- Player 1 sets a secret 4-colour code.
+- Player 2 attempts to guess the code within 10 tries.
+- After each guess, the computer will provide feedback on player 2's pick.
+- After 10 attempts, the game reveals the code if Player 2 hasn’t guessed correctly.
+
+Rules:
+- Keep the code secret!
+- Switch turns, to see who is better at guessing secret codes :)
+
+────────────────────────────────────────────
+CAMPAIGN MODE
+
+Campaign Mode includes a sequence of increasingly difficult challenges.
+
+- Each level features a new code with varying complexity.
+- The number of available colours might increase as you progress.
+- Later stages may include 5- or 6-length codes
+
+
+────────────────────────────────────────────
+TIPS
+
+- Start with a guess that uses different colours to gather more information.
+- Pay close attention to which colours get ✓ and ○ feedback.
+- Track your guesses and feedback to narrow down the possibilities.
+- Be strategic—random guessing will cost you your 10 chances quickly.
+
+────────────────────────────────────────────
+THANK YOU FOR PLAYING MASTERMIND!
+
+Created by: Jonathan Osei
+Year: 2025  
